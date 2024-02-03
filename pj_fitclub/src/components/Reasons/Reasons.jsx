@@ -43,9 +43,9 @@ const Reasons = () => {
         </div>
         <span style={{ color: 'var(--gray)', fontWeight: 'bold' }}>OUR PARTNERS</span>
         <div className="partners">
-          <img src={nb} alt="" />
-          <img src={adidas} alt="" />
-          <img src={nike} alt="" />
+          <img src={nb} alt="newbalacne" />
+          <img src={adidas} alt="adidas" />
+          <img src={nike} alt="nike" />
         </div>
       </div>
     </div>
