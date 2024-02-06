@@ -24,17 +24,17 @@ const Hero = () => {
             whileInView={{ left: '8px' }}
             transition={{ ...transition, type: 'tween' }}
           ></motion.div>
-          <span>the best fitness club in the town</span>
+          <span>안녕하세요! 우리나라 최고의 피트니스 클럽</span>
         </div>
         <br />
         {/* hero-heading */}
         <div className="hero-text">
           <div>
-            <span className="stroke-text">Shape </span>
-            <span>Your</span>
+            <span className="stroke-text">이상적인 </span>
+            <span>여러분의</span>
           </div>
           <div>
-            <span>Ideal body</span>
+            <span>몸을 만들어보세요</span>
           </div>
           <div>
             <span>in here we will help you to shape and build your edeal body and live up your life to fullest</span>
@@ -47,31 +47,31 @@ const Hero = () => {
             <span>
               <NumberCounter end={140} start={100} delay={'4'} preFix="+"></NumberCounter>
             </span>
-            <span>expert coachs</span>
+            <span>현재 코치</span>
           </div>
           <div>
             <span>
               <NumberCounter end={978} start={800} delay={'4'} preFix="+"></NumberCounter>
             </span>
-            <span>members joined</span>
+            <span>합류한 회원수</span>
           </div>
           <div>
             <span>
               <NumberCounter end={50} start={0} delay={'3'} preFix="+"></NumberCounter>
             </span>
-            <span>fitness programs</span>
+            <span>진행 프로그램</span>
           </div>
         </div>
         <br />
         <br />
         {/* hero buttons */}
         <div className="hero-buttons">
-          <button className="btn">Get Started</button>
-          <button className="btn">Learn More</button>
+          <button className="btn">함께하기</button>
+          <button className="btn">더 알아보기</button>
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+        <button className="btn">로그인</button>
         <motion.div
           initial={{ right: '-1rem' }}
           whileInView={{ right: '4rem' }}
@@ -79,7 +79,7 @@ const Hero = () => {
           className="heart-rate"
         >
           <img src={heart} alt="heart" />
-          <span>Heart Rate</span>
+          <span>심장박동수</span>
           <span>116 bpm</span>
         </motion.div>
 
@@ -102,7 +102,7 @@ const Hero = () => {
         >
           <img src={calories} alt="calories" />
           <div>
-            <span>Calories Burned</span>
+            <span>소모된 칼로리</span>
             <span>220 Kcal</span>
           </div>
         </motion.div>

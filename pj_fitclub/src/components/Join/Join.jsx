@@ -17,8 +17,8 @@ const Join = () => {
       </div>
       <div className="right-j">
         <form className="email-container">
-          <input type="email" name="user_email" placeholder="Enter your Email" />
-          <button className="btn btn-j">Join Now</button>
+          <input type="email" name="user_email" placeholder="이메일을 입력하세요" />
+          <button className="btn btn-j">Continue</button>
         </form>
       </div>
     </div>

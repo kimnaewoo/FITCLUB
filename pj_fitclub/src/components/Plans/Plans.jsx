@@ -19,7 +19,7 @@ const Plans = () => {
           <div className="plan" key={i}>
             {plan.icon}
             <span>{plan.name}</span>
-            <span>$ {plan.price}</span>
+            <span>{plan.price} 원</span>
             <div className="features">
               {plan.features.map((feature, i) => (
                 <div className="feature" key={i}>
@@ -29,9 +29,9 @@ const Plans = () => {
               ))}
             </div>
             <div>
-              <span>See more benefits -></span>
+              <span>상세정보 확인하기 -></span>
             </div>
-            <button className="btn">Join now</button>
+            <button className="btn">결제하기</button>
           </div>
         ))}
       </div>

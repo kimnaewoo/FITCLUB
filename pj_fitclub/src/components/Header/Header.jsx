@@ -31,7 +31,7 @@ const Header = () => {
               spy={true}
               smooth={true}
             >
-              Home
+              핏클럽
             </Link>
           </li>
           <li>
@@ -43,7 +43,7 @@ const Header = () => {
               spy={true}
               smooth={true}
             >
-              Programs
+              프로그램
             </Link>
           </li>
           <li>
@@ -55,7 +55,7 @@ const Header = () => {
               spy={true}
               smooth={true}
             >
-              Why us
+              클럽소개
             </Link>
           </li>
           <li>
@@ -67,7 +67,7 @@ const Header = () => {
               spy={true}
               smooth={true}
             >
-              Plans
+              계획표
             </Link>
           </li>
           <li>
@@ -79,7 +79,7 @@ const Header = () => {
               spy={true}
               smooth={true}
             >
-              Testimonials
+              사용후기
             </Link>
           </li>
         </ul>

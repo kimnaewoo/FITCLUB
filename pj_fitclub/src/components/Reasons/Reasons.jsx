@@ -18,30 +18,30 @@ const Reasons = () => {
         <img src={image4} alt="" />
       </div>
       <div className="right-r">
-        <span>some reasons</span>
+        <span>확실한 방법</span>
         <div>
-          <span className="stroke-text">why</span>
-          <span> choose us?</span>
+          <span className="stroke-text">우리를&nbsp;</span>
+          <span> 선택해야 하는 이유</span>
         </div>
         <div className="details-r">
           <div>
             <img src={tick} alt=""></img>
-            <span>OVER 140+ EXPERT COACHS</span>
+            <span>140명 이상의 전문 코치들</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
+            <span>전보다 달라진 스마트하고 빠르게 훈련하기</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>I FREE PROGRAM FOR NEW MEMBER</span>
+            <span>신규 회원을 위한 무료 소프트 프로그램</span>
           </div>
           <div>
             <img src={tick} alt="" />
-            <span>RELIABLE PARTNERS</span>
+            <span>고객기준에 신뢰할 수 있는 파트너</span>
           </div>
         </div>
-        <span style={{ color: 'var(--gray)', fontWeight: 'bold' }}>OUR PARTNERS</span>
+        <span style={{ color: 'var(--gray)', fontWeight: 'bold' }}>협찬 스폰서</span>
         <div className="partners">
           <img src={nb} alt="newbalacne" />
           <img src={adidas} alt="adidas" />
